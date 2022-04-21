@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --white: #fff;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    padding-right: 3px;
+}
+
+nav a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+button{
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.botao-entrar{
+    color: var(--text-color);
+    background-color: var(--white);
+}
+
+.botao-cadastrar{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.cabecalho {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 324px;
+}
+
+.subtitulo-cabecalho {
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.titulo-cabecalho{
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size: 48px;
+}
+
+.paragrafo-cabecalho{
+    color: var(--text-color);
+    width: 791px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+}
