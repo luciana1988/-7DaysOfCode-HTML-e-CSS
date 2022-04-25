@@ -5,6 +5,7 @@
     --main-color: #8E2424;
     --white: #fff;
     --black: #101828;
+    --cinza-borda: #EAECF0;
   }
 
 * {
@@ -158,11 +159,54 @@ button{
 
 .texto-vagas{
     color: var(--text-color);
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .foto-vagas{
-    margin-bottom: 2rem;
     width: 1216px;
     height: auto;
 }
+
+/*vagas abertas*/
+
+.vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 336px;
+    font-size: 20px;
+}
+
+.cargo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid var(--cinza-borda);
+    padding-left: 2rem;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    width: 768px;
+    height: 136px;
+}
+
+.area-vaga{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.vagas-cargo{
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.info-cargo{
+    display: flex;
+    justify-content: stretch;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.texto-cargo{
+    margin-right: 2rem;
+}
+
