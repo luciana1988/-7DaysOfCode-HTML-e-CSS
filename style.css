@@ -29,11 +29,21 @@ header{
 
 .logo{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-img{
-    padding-right: 3px;
+#img-logo{
+    padding-right: 10px;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 5px;
 }
 
 nav a{
@@ -208,5 +218,47 @@ button{
 
 .texto-cargo{
     margin-right: 2rem;
+}
+
+/* depoimentos */
+
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: 
+    rgba(195, 25, 25, 0.03);
+    width: 1216px;
+    margin-left: 112px;
+    padding: 50px 0px;
+    border-radius: 16px;
+    margin-bottom: 10rem;
+}
+
+.subtitulo-depoimento{
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.texto-depoimento {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+#avatar-depoimento{
+    margin-bottom: 1rem;
+}
+
+.nome-depoimento{
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+.cargo-depoimento{
+    color: var(--text-color);
+    font-size: 14px;
 }
 
