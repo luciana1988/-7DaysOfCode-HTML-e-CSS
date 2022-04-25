@@ -69,7 +69,7 @@ button{
 .subtitulo-cabecalho {
     color: var(--main-color);
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
     font-weight: 500;
     font-size: 16px;
 }
@@ -86,4 +86,42 @@ button{
     line-height: 1.5;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 8rem;
+}
+
+.metricas-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 96px 0;
+    height: 72px;
+}
+
+.projetos, .colaboradores, .downloads, .review{
+    width: 280px;
+}
+
+.projetos {
+    margin-left: 112px;
+}
+
+.review{
+    margin-right: 112px;
+}
+
+.titulo-metricas{
+    color: var(--main-color);
+    font-size: 60px;
+    padding-bottom: 1rem;
+}
+
+.subtitulo-metricas{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.texto-metricas{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
